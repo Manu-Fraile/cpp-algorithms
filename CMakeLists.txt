@@ -4,5 +4,6 @@ project(cpp_algorithms)
 set(CMAKE_CXX_STANDARD 14)
 
 add_executable(cpp_algorithms
-        DataStructures/avltree.cpp
-        main.cpp)
+        #data_structures/avltree.cpp
+        #main.cpp
+        sorting/insertion-sort.cpp)
