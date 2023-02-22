@@ -18,7 +18,7 @@ std::vector<int> insertionSort(std::vector<int> input, int n){
 }
 
 int main() {
-    std::vector<int> input = {5, 2, 4, 6, 1, 3};
+    std::vector<int> input = {5, 2, 4, 6, 1, 3, 78, -9, -4, 54};
     int n = static_cast<int>(input.size());
 
     std::vector<int> input_sorted = insertionSort(input, n);
