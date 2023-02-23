@@ -10,5 +10,6 @@ add_executable(cpp_algorithms
         main.cpp)
 
 add_executable(collatz mathematics/collatz.cpp)
+add_executable(goldbach mathematics/goldbach.cpp)
 add_executable(fibonacci mathematics/fibonacci.cpp)
 add_executable(insertion-sort sorting/insertion-sort.cpp)
