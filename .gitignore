@@ -36,3 +36,6 @@ cmake-build-debug/
 
 # CLion Editor
 .idea/
+
+# Build output
+build/
