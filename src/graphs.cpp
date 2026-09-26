@@ -48,7 +48,7 @@ std::vector<Edge> random_edges(Viz& viz, int lo, int hi, bool directed) {
   std::iota(rank.begin(), rank.end(), 0);
   if (directed) std::ranges::shuffle(rank, viz.rng());
   std::vector<Edge> edges;
-  for (const auto [a, b] : kLinks) {
+  for (const auto& [a, b] : kLinks) {
     const bool forward = rank[static_cast<std::size_t>(a)] < rank[static_cast<std::size_t>(b)];
     edges.push_back({forward ? a : b, forward ? b : a, viz.random(lo, hi)});
   }
